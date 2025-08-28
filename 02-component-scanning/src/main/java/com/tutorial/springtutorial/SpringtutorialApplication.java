@@ -1,0 +1,20 @@
+package com.tutorial.springtutorial;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/*
+@SpringBootApplication(
+        scanBasePackages = {"com.tutorial.springtutorial", "util"})
+
+ */
+
+@SpringBootApplication
+public class SpringtutorialApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(SpringtutorialApplication.class, args);
+    }
+
+}
+
